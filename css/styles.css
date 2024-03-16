@@ -1,0 +1,715 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#topbarSection{
+    background-color: #1BAAA0;
+    
+}
+
+
+/* topbar */
+
+.nav li a{
+    color: #fff;
+    font-size: 0.84rem;
+}
+
+.nav li a:hover{
+    color: #000;
+    font-size: 0.84rem;
+}
+
+
+
+
+
+
+
+ /* navbar */
+
+#navbarSection{
+    background-color: rgba(27, 170, 160, 0.2);
+}
+
+#navbarLinks li a{
+    color: #000000;
+    font-size: 1rem;
+}
+
+#navbarLinks li a:hover{
+    color: tomato;
+}
+
+#navbarButton{
+    background-color: #1BAAA0;
+    color: #fff;
+}
+
+#navbarButton:hover{
+    background-color: #1BAAA0;
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.2s linear ease-in-out;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* greenSection */
+
+.greenSection{
+    background-color: rgba(27, 170, 160, 0.2);
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* heroSection */
+
+
+
+#heroSection{
+    background-color: rgba(27, 170, 160, 0.2);
+    /* height: 100vh; */
+}
+
+#heroSectionPara{
+    background-color: #fff;
+    padding: 20px 10px 20px 0;
+}
+
+/* #heroSectionPara input:focus{
+    outline: none !important;
+} */
+
+/* #heroSectionPara input:focus {
+    outline: none !important;
+} */
+
+#heroSectionButton{
+    background-color: #1BAAA0;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;   
+}
+
+#heroSectionButton:hover{
+    background-color: #1BAAA0;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transform: scale(1.05);
+    transition: all 0.2s linear ease-in-out;   
+}
+
+.heroImage{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* whiteSection */
+
+.whiteSection{
+    background-color: white;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* cardsSection */
+
+
+
+/* .cardsSectionPara{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+} */
+
+/* .cards{
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
+
+} */
+
+.cardCircle{
+    width: 35px;
+    height: 35px;
+    background-color: #1BAAA0;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.innerCardBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1, .card4, .card5, .card6{
+    background-color: #002B44;
+    color: #fff;
+}
+
+.card{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 12px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* recommended Jobs Section */
+
+#recommendedJobsSection{
+    background-color: rgba(27, 170, 160, 0.08);
+    padding: 60px 0;
+}
+
+.recommendedDoubleTickHead{
+    display: flex;
+    gap: 20px;
+}
+
+/* .recommendedPara{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.Recommendedhead{
+    color: #1BAAA0;
+}
+
+.recommendedParaText{
+    padding: 10px 0px 0px 37px;
+}
+
+.recommendedParaText p{
+    color: gray;
+}
+
+.recButtonCircle{
+    width: 35px;
+    height: 35px;
+    background-color: #1BAAA0;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.recCardHead p{
+    color: gray;
+}
+
+.recButtonAmount p{
+    color: white;
+}
+
+.recButton{
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 70px;
+    background-color: #1BAAA0;
+    border-radius: 7px;
+    padding: 10px 20px 0px 20px;
+}
+
+.recButton:hover{
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 70px;
+    background-color: #17938b;
+    border-radius: 7px;
+    padding: 10px 20px 0px 20px;
+}
+
+.recCards{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.recommendedJobsLeftPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* image Section */
+
+
+#imageSection{
+    background-color: rgba(27, 170, 160, 0.08);
+}
+
+.imgBack{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imgBack img{
+    margin: 50px 10px;
+    width: 100%;
+    border-radius: 22px;
+    height: 400px;
+}
+
+.imgBackContent{
+    position: absolute;
+    color: white;
+}
+
+.imgBackContent h2 span{
+    color: #1BAAA0;
+}
+
+.imageSectionButton{
+    background-color: #1BAAA0;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.imageSectionButton:hover{
+    background-color: #1BAAA0;
+    color: #fff;
+    padding: 10px 20px;
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* opened Jobs Section */
+
+#openedJobSection{
+    background-color: rgba(27, 170, 160, 0.08);
+}
+
+
+.buttonLike{
+    background-color: rgba(27, 170, 160, 0.2);
+    color: #17938b;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.openedJobsHead a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.openedJobsBlock{
+    display: flex;
+    column-gap: 30px;
+}
+
+.openedJobsBlockLogo{
+    display: flex;
+    column-gap: 5px;
+}
+
+.openedJobsBlock2{
+    display: flex;
+    column-gap: 10px;
+}
+
+.openedJobsBlock2Para{
+    align-self: flex-end;
+}
+
+.openedJobsBlock2Logo{
+    background-color: rgba(27, 170, 160, 0.2);
+    padding: 8px 7px 8px 7px;
+    border-radius: 5px;
+}
+
+.openedJobsSectionCards{
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+}
+
+.openedJobsSectionCards:hover{
+    transform: scale(1);
+}
+
+.specialCard{
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);
+    border: 4px dashed #1BAAA0;
+    background-color: rgba(156, 253, 247, 0.2);
+    height: 100%;
+}
+
+.specialCard:hover{
+    transform: scale(1);
+}
+
+
+.openedJobsSpecialCardButton{
+    border: 2px solid #1BAAA0;
+    color: #169088;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.openedJobsSpecialCardButton:hover{
+    border: 2px solid #1BAAA0;
+    color: #169088;
+    width: 50%;
+    margin: 0 auto;
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+}
+
+.specialCardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+/* greenSectionCard */
+
+.greenSectionCard{
+    background-color: rgba(27, 170, 160, 0.08);
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* sliderSection */
+
+
+/* 
+#slider {
+    max-width: 300px; 
+    margin:auto; 
+}
+
+.carousel-item {
+    height: 400px; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; 
+} */
+
+#sliderSection{
+    padding: 70px 0px;
+}
+
+.sliderHead h2 span{
+    color: tomato;
+}
+
+.c-item{
+    height: 300px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+/* uplink section */
+
+
+
+#upLinkSection{
+    max-height: 1000px;
+    padding: 100px 50px 50px 50px;
+    background-color: #1BAAA0;
+    position: relative;
+}
+
+
+.upLinkHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upLinkHeader .upLinkHead h2{
+    font-size: 3.7rem;
+    color: #fff;
+}
+
+.upLinkHeader .upLinkHead h2:hover{
+    font-size: 3.7rem;
+    color: rgb(254, 73, 103);
+    transition: all 0.1s linear;
+
+}
+
+
+
+/* .upLinkHead h2{
+    font-size: 2.7rem;
+    color: white;
+} */
+
+
+.upLinkCircle{
+    width: 60px;
+    height: 60px;
+    background-color: #002B44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 94%;
+    border: 4px solid #fff;
+}
+
+.upLinkCircle a{
+    color: #fff;
+}
+
+
+.label{
+    color: #000;
+}
+
+.formButton{
+    background-color: #f67694;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #f67694;
+}
+
+.formButton:hover{
+    background-color: #f67694 !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    border: 1px solid #f04970;
+}
+
+
+.formB{
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 0 rgba(65,117,5,1), 10px 10px 0 0 rgba(65,117,5,0.6), 15px 15px 0 0 rgba(65,117,5,0.4), 20px 20px 0 0 rgba(65,117,5,0.2), 25px 25px 0 0 rgba(65,117,5,0.1);
+}
+
+
+@media screen and (max-width:768px){
+    .upLinkCircle{
+        left: 45%;
+    }
+
+    .upLinkHeader .upLinkHead h2{
+        font-size: 2.5rem;
+    }
+    
+    .upLinkHeader .upLinkHead h2:hover{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+
+#mainPageFooter{
+    background-color: #0E132C;
+}
+
+.footerLinkAnchor nav{
+    line-height: 1rem;
+}
+
+.footerLinkAnchor nav a{
+    color: #e7dcdc;
+}
+
+.footerLinkAnchor nav a:hover{
+    color: #fff;
+}
+
+.footerLinkAnchor nav a:focus{
+    color: #fff;
+}
+
+
+
+
+
+
+
+.contentWrapper{
+    position: relative;
+}
+
+.circleNav{
+    /* width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    z-index: 999; */
+    position: fixed;
+    top: 70%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: #045FA0;
+    border-radius: 50%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.circleNav a i{
+    color: #fff;
+}
+
+
+@media screen and (max-width:576px){
+    .circleNav{
+        width: 55px;
+        height: 55px;
+        left: 90%;
+    }
+}
+
+
+
+
+/* .contentWrapper > main > #heroSection .circleNav {
+    opacity: 0;
+    z-index: -1;
+} */
+
+.contentWrapper  main  #heroSection .circleNav {
+    opacity: 0;
+}
+  
