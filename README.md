@@ -1,1 +1,1 @@
-# Betakit-Responsive-Template
+# Betakit
